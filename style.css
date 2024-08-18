@@ -71,7 +71,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 .section1title {
