@@ -11,10 +11,18 @@ body {
     background-color: #1F2937;
 }
 
+.navbar {
+    padding-top: 16px;
+    padding-right: 64px;
+    padding-left: 64px;
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
 }
 
 .header-logo {
@@ -48,6 +56,11 @@ body {
     flex: 1;
 }
 
+.headercontent {
+    background-color: #1F2937;
+    padding: 64px;
+}
+
 .splitsection {
     display: flex;
 }
@@ -58,6 +71,7 @@ body {
     flex-wrap: wrap;
     flex: 1;
     flex-direction: column;
+    gap: 16px;
 }
 
 .section1title {
@@ -89,16 +103,117 @@ body {
     height: 30px;
     background-color: #3882F6;
     color: #E5E7EB;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 5px;
 }
 
 .section2 {
     flex: 1;
 }
 
+.section2content {
+    padding: 64px;
+}
+
+.section2title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+img {
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    width: 100px;
+    height: 100px;
+}
+
+.subtext {
+    width: 100px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+}
+
 .section3 {
+    display: flex;
+    flex-direction: column;
     flex: 1;
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.section3content {
+    padding: 64px;
+}
+
+.somequote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 16px;
+    margin: 0;
+    max-width: 550px;
+}
+
+.quotecredits {
+    color: #1F2937;
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: right;
+    margin: 0;
+    width: 550px;
 }
 
 .section4 {
+    display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionbox {
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 800px;
+    border-radius: 8px;
+    margin: 64px;
+    padding: 24px;
+}
+
+.call2action {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.calltitle, .calltext {
+    color: #F9FAF8;
+}
+
+#button2 {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    border-color: #F9FAF8;
+    padding: 6px;
+    color: #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    color: #F9FAF8;
 }
