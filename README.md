@@ -1,4 +1,3 @@
-README
+This is a quick little landing page project using HTML and CSS Flexbox only. 
 
-This is a quick little landing page project for the Odin project.
-It'll include HTML and CSS (using flexbox) strictly.
+The purpose of this is to practice using Flexbox and the different ways to manipulating divs on a webpage.
